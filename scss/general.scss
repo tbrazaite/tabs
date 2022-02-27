@@ -1,0 +1,32 @@
+// colors
+// #2E4C6D tamsiai melyna
+// #396EB0 sviesense melyna
+// #DADDFC sviesiai melyna
+// #FC997C rausva
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: $bg-color;
+    text-align: center;
+    font-size: 1em;
+    width: 1024px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: scroll;
+}
+
+h1{
+    margin: 20px;
+    color: $main-color;
+    text-transform: uppercase;
+    letter-spacing: 25px;
+    text-shadow: 3px 3px $main-color-2;
+}
+
+

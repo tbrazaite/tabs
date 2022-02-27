@@ -1,0 +1,25 @@
+@mixin selected-style {
+    border-bottom: 3px solid $main-color;
+    border-top: 3px solid $main-color;
+    background-color: $main-color-2;
+    color: $main-color;
+}
+
+.selected-2{
+    transform: translateX(-50%);
+    @include selected-style;
+}
+
+.selected-1{
+    transform: translateX(50%);
+    @include selected-style;
+}
+
+.tabAnimation{
+    opacity: 1;
+    transform:  translateY(50px);
+    background-color: $bg-color-2;
+    color: $main-color;
+}
+
+

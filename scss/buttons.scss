@@ -1,0 +1,93 @@
+.buttons {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 50px;
+   text-transform: uppercase;
+    letter-spacing: 10px;
+    border-left: 10px dashed $main-color;
+    border-right: 10px dashed $main-color;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
+    color: $main-color;
+    background-color: $bg-color-2;
+    // text-shadow: 2px 2px white;
+    
+        p{
+            font-size: 1.2em;
+            width: 250px;       
+        }
+}
+
+.buttons-1, 
+.buttons-2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p{
+        border-bottom: 3px solid $main-color-2;
+        width: 80%;
+        padding-bottom: 10px;
+    }
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    background: none;
+    border: none;
+    color: $main-color;
+    font-size: 1.0em;
+    transition: 1.5s;
+    margin-top: 30px;
+    letter-spacing: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: $main-color;
+    border-top: 3px solid $main-color-2;
+    border-bottom: 3px solid $main-color-2;
+    color: $main-color-2;
+}
+
+.buttons-1 button::before{
+            position: absolute;
+            content: "═";
+            transform: translate(-100%);
+            color: $main-color;
+            opacity: 1;
+            font-weight: bold;
+            transition: 1.5s;
+        }
+
+.buttons-1 button:hover::before{
+            position: absolute;
+            content: "═";
+            color: $main-color-2;
+            opacity: 1;
+            font-weight: bold;
+            transform: translateX(-150%);
+        }
+       
+
+.buttons-2 button::after{
+            position: absolute;
+            content: "═";
+            color: $main-color;
+            opacity: 1;
+            font-weight: bold;
+            transition: 1.5s;
+        }
+
+.buttons-2 button:hover::after{
+            position: absolute;
+            content: "═";
+            color: $main-color-2;
+            opacity: 1;
+            font-weight: bold;
+            transform: translateX(50%);
+        }
+       

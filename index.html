@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <script src="https://kit.fontawesome.com/e57c2904bb.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="app/css/style.css">
+  <title>Kelionės</title>
+
+<body>
+  <h1>Kelionės</h1>
+  <div class="content">
+    <div class="buttons">
+      <div class="buttons-1">
+        <p>Buvusios</p>
+        <button onclick="move1(event, 'zakopane')">Zakopanė</button>
+        <button onclick="move1(event, 'paryzius')">Paryžius</button>
+      </div>
+
+      <div class="buttons-2">
+        <p>Planuojamos</p>
+        <button onclick="move2(event, 'roma')">Roma</button>
+        <button onclick="move2(event, 'oslas')">Oslas</button>
+      </div>
+    </div>
+
+
+    <div class="tabs">
+      <div id="zakopane" class="tab">
+        <p><b>Zakopanė</b> – miestas pietų Lenkijoje, Mažosios Lenkijos vaivadijoje. Tatrų apskrities centras. <br>
+          Zakopanėje yra kalnų slidinėjimo bei pasivaikščiojimo po kalnus trasos. <br> Čia gaminami vietiniai sūriai iš
+          avių
+          pieno. <br> Zakopanės architektūros vyraujantis stilius kalnų eglės formos stilizuoti namai yra sukurti
+          lietuvių architekto
+          Stanislovo Vitkevičiaus ir vėliau tobulinti jo sūnaus.</p>
+
+        <img src="resources/zakopane.jpg" alt="zakopane">
+
+      </div>
+      <div id="paryzius" class="tab">
+
+        <p><b>Paryžius</b> – Prancūzijos sostinė. Su 2,14 mln. gyventojų
+          (2020 m.) yra penktas pagal dydį Europos Sąjungos ir devintas pagal dydį Europos žemyno miestas. Įsikūręs
+          Senos upės
+          vingyje, abiejuose upės krantuose. Nuo XVII a. buvo vienas didžiausių Europos finansų, diplomatijos,
+          prekybos, mados,
+          gastronomijos, mokslo ir meno centrų. Visame pasaulyje gerai žinomas dėl gausybės istorinių paminklų bei
+          savo
+          unikalios kultūros.
+        </p>
+
+        <img src="resources/paris.jpg" alt="paris">
+
+      </div>
+      <div id="roma" class="tab">
+
+
+        <p><b>Roma</b> – Italijos sostinė (nuo 1870 m.) ir didžiausias miestas, esantis šalies centrinėje dalyje prie
+          Tibro upės.
+          Didelis turizmo centras, turintis daugybę antikinių ir viduramžių paminklų (I amžiaus Koliziejus, rūmai,
+          akvedukai,
+          fontanai ir kiti statiniai), turtingus muziejus. <br>
+          Roma yra trečias labiausiai turistų lankomas miestas Europos Sąjungoje ir aštuntas pagal šį rodiklį pasaulyje
+          (2007 m.). <br>
+          Pačiame mieste yra Vatikano valstybė – popiežiaus rezidencija.
+        </p>
+
+        <img
+          src="https://images.unsplash.com/photo-1612021148925-466704654aeb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+          alt="rome">
+
+      </div>
+      <div id="oslas" class="tab">
+
+        <p><b>Oslas</b> – Norvegijos sostinė. Osle gyvena apie 11,5 proc., o su priemiesčiais (iš viso aglomeracijoje –
+          1 588 457
+          gyventojų 2020 m.) dar didesnė dalis Norvegijos gyventojų. <br>
+          Pagal senovės norvegų sagas, Oslas įkurtas apie 1048 Norvegijos karaliaus Haraldo III-ojo. Neseniai daryti
+          archeologiniai tyrinėjimai nustatė, kad prieš 1000 m. čia buvo krikščioniškų kapų, o tai reiškia, kad buvo ir
+          ankstesnė
+          miesto tipo gyvenvietė. Dėl to 2000 m. Oslas šventė savo tūkstantmetį.
+        </p>
+
+        <img
+          src="https://images.unsplash.com/photo-1433757741270-94a3bcadc2f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1076&q=80"
+          alt="oslo">
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
